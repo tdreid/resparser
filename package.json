@@ -2,7 +2,7 @@
   "name": "resparser",
   "version": "0.1.0",
   "description": "A utility to process delimited text files",
-  "main": "main.js",
+  "main": "resparser.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
