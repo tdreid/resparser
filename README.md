@@ -13,6 +13,21 @@ Options:
 
 ```
 
+## Or interactively...
+
+```
+$ node resparser.js
+
+Where is the file located?
+test_file.csv
+
+PATH: test_file.csv
+DELIMITER:','
+FIELDS: 3
+
+
+```
+
 ##  Details
 
 The application should ask the user 3 questions:
