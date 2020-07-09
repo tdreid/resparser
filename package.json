@@ -1,0 +1,11 @@
+{
+  "name": "resparser",
+  "version": "0.1.0",
+  "description": "A utility to \u001b[2~process delimited text files",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "trevor.d.reid@gmail.com <Trevor D. Reid, MBA>",
+  "license": "MIT"
+}
