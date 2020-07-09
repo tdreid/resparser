@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "trevor.d.reid@gmail.com <Trevor D. Reid, MBA>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^5.1.0"
+  }
 }
