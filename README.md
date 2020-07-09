@@ -33,8 +33,11 @@ FIELDS: 3
 The application should ask the user 3 questions:
 
 - Where is the file located?
+
 - Is the file format CSV (comma-separated values) or TSV (tab-separated values)?
-  ___Note:__ this implementation prompts for delimiter, rather than restricting the fromat to two options only_
+
+  ___Note:__ this implementation prompts for delimiter, rather than restricting the format to two options only._
+
 - How many fields should each record contain?
 
 The application should then produce two output files. One file will contain the records (if any) with the correct number of fields. The second will contain the records (if any) with the incorrect number of fields. Neither file should contain the header row. If there are no records for a given output file, do not create the file.
