@@ -10,7 +10,7 @@ const running_version = require('./package.json').version;
 
 resparser
     .version(running_version, '-v, --version')
-    .option('-d, --delimiter <delimiter>', 'specify a delimeter', ',')
+    .option('-d, --delimiter <delimiter>', 'specify a delimiter', ',')
     .option('-n, --fields <fields>', 'specify how many fields each record should contain', 3)
     // ('-h, --help' option is built-in by commander)
     .arguments('[path]')
@@ -23,7 +23,7 @@ resparser
         if(!resparser.fields) resparser.fields = 
             await getUserInput("\nHow many fields should each record contain?\n");            
 
-        let parsedFileResults = await parseFile(path, resparser.delimiter, resparser.fields);
+        parseFile(path, resparser.delimiter, resparser.fields);
     })
     .parse(process.args);
 
