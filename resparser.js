@@ -23,7 +23,7 @@ resparser
         if(!resparser.fields) resparser.fields = 
             await getUserInput("\nHow many fields should each record contain?\n");            
 
-        let parsedFileResults = await parseFile(path, resparser.delimiter, resparser.fields);
+        parseFile(path, resparser.delimiter, resparser.fields);
     })
     .parse(process.args);
 
