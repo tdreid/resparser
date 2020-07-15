@@ -6,7 +6,7 @@ Usage: resparser [options] [path]
 
 Options:
   -v, --version                output the version number
-  -d, --delimiter <delimiter>  specify a delimeter (default: ",")
+  -d, --delimiter <delimiter>  specify a delimiter (default: ",")
   -n, --fields <fields>        specify how many fields each record should contain (default: 3)
   -h, --help                   display help for command
 
